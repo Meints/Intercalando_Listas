@@ -1,0 +1,15 @@
+1. Listas encadeadas
+
+Considere a seguinte declaração para os nós de uma lista encadeada:
+class Nodo {
+  int valor;
+  Nodo prox;
+}
+
+1.1) Escreva uma função que recebe duas listas: x = (x1,...,xn) e y = (y1,...,ym)
+como   parâmetro   e   retorna   uma   lista   formada   pelos   elementos   de   x   e   y
+intercalados. A lista resultante será da forma
+• (x1,y1,...,xm,ym,xm+1,...,xn) se m <= n ou
+• (x1,y1,...,xn,yn,yn+1,...,ym) se m > n.
+Nenhum nó adicional deve ser criado e as listas originais x e y devem ficar
+vazias ao final.
